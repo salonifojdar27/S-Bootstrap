@@ -17,96 +17,213 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a href="" class="navbar-brand" style="color:darkblue;font-size:27px;"><b>Medilab</b></a>
-            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav w-100 d-flex justify-content-end">
-                    <li class="nav-item"> <a href="" class="nav-link Active" style="color:blue;">Home</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">Services</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">Department</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">Doctors</a></li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
-                        <ul class="dropdown-menu">
-                        </ul>
-                    </li>
-                    <li class="nav-item"> <a href="" class="nav-link">Contact</a></li>
-                    <a href="" class="btn btn-primary" style="border-radius:50px;">Make an appointment</a>
-                </ul>
+     <!-- navbar -->
+    <div class="sticky-top">
+        <div class="navbar navbar-expand-lg navbar-dark  f_nav text-light ">
+            <div class="container ">
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent1">
+                    <ul class="navbar-nav w-100  ">
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-envelope"></i>&nbsp;contact@example.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-phone"></i>&nbsp;+91
+                                6354416437</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav me-auto right_ w-100">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-twitter-x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i
+                                    class="bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand"
+                    style="font-weight: bolder; font-size: 32px;">Medilab</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="nav nav-pills w-100 justify-content-end "
+                        style="display: flex; align-items: center; ;">
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">Department</a></li>
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">Doctors</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="#">Action</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="#">Something else
+                                        here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#"
+                                class="nav-link">Contact</a></li>
+                        <li>
+                            <div class="btn"
+                                style="color: white; align-items:top;">Make
+                                an Appointment</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- background -->
-    <img src="images/img1.jpg" alt="" style="height:880px;width: 100%;" class="col-12 w-100">
-
-
     <!-- content -->
-    <div class="content col-12 ">
-        <h1 style="top:27%; left: 15%; position:absolute;color: #1A76CB;">
-            <b>WELCOME TO MEDILAB</b>
-        </h1>
-        <h5 style="top:34%; left: 15%; position:absolute;">
-            We are team of talented designers making websites with Bootstrap
-        </h5>
-    </div>
+    <main class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content_">
+                    <h1>WELCOME TO MEDILAB</h1>
+                    <p>We are team of talented designers making website with
+                        Bootstrap</p>
+                </div>
+            </div>
+        </div>
 
-    <!-- card -->
-    <div class="container" style="position:absolute; top:45%; margin-left: 15%;">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
-                <div class="card" style="background-color:#1A76CB; height:378px; top:-6%;">
-                    <div class="card-body">
-                        <h2 class="card-title" style="color: white;"><b>Why Choose Medilab?</b></h2>
-                        <p class="card-text" style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Sequi harum sunt expedita fugit eum incidunt, unde quibusdam quaerat officia doloribus
-                            corporis dolorem cupiditate, voluptate reprehenderit ad quia, saepe hic sint</p>
-                        <a href="#" class="btn btn-primary" style="background-color:blue">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
-                <div class="card" style="height: 335px; background-color: white;">
-                    <div class="card-body">
-                        <i class="bi bi-journal-text" style="font-size: 40px; color: #1A76CB; margin-left:40%;"></i>
-                        <h5 class="card-title" style="color: #1A76CB; text-align: center;"><b>Corporis<br>
-                                voluptates<br> offica elusmod</b></h5>
-                        <p class="card-text" style="text-align: center;">Consequuntur sunt aut quasi enim aliquam quae
-                            harum pariatur laboris nisi ut aliquip.</p>
-                    </div>
-                </div>
-            </div>
-            
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
-                    <div class="card" style="height: 335px; background-color: white;">
+        <!-- Card -->
+        <div class="container">
+            <div class="row mt-5 w-90">
+                <div
+                    class="col-12  col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-1">
+                    <div class="card bg-primary m-sm-auto m-auto m-3"
+                        style="width: 18rem; color: white;">
                         <div class="card-body">
-                            <i class="bi bi-gem" style="font-size: 40px; color: #1A76CB; margin-left:40%;"></i>
-                            <h5 class="card-title" style="color: #1A76CB; text-align: center;"><b>Ullamco Laboris <br>
-                                    Ladore Pan</b></h5>
-                            <p class="card-text" style="text-align: center;">Excepteur sint occaecat cupidatat non
-                                proident,sunt in culpa qui offcia deserunt</p>
+                            <h2 class="card-title">Why choose medilab?</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Vero explicabo laboriosam
+                                laudantium voluptate. Facilis voluptate
+                                aperiam a aliquid enim rem fugiat quas
+                                veniam,
+                                magnam, assumenda qui, blanditiis
+                                necessitatibus asperiores atque.
+                            </p>
+                            <a href="#" class="btn">Learn More
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-12  col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
+                    <div class="card m-sm-auto m-auto"
+                        style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="bi bi-clipboard2-data text-info"
+                                id="icon1"></i>
+                            <h5 class="card-title">Corporis Voluptates
+                                officia eiusmod</h5>
+                            <p class="card-text" id="one">Lorem ipsum dolor,
+                                sit amet consectetur adipisicing elit.
+                                Fuga, assumenda laborum. Amet fugit numquam
+                                saepe aspernatur ducimus, vitae maiores eum
+                                dolores sequi magnam est laborum corrupti
+                                reprehenderit laboriosam cupiditate? Hic!
+                            </p>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
-                    <div class="card" style="height: 335px; background-color: white;">
+                <div
+                    class="col-12   col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5">
+                    <div class="card m-sm-auto m-auto"
+                        style="width: 18rem;">
                         <div class="card-body">
-                            <i class="bi bi-inboxes" style="font-size: 40px; color: #1A76CB; margin-left:40%;"></i>
-                            <h5 class="card-title" style="color: #1A76CB; text-align: center;"><b>Labore
-                                    <br>consequatur<br> incidid dolore</b></h5>
-                            <p class="card-text" style="text-align: center;">Aut suscipit out cum nemo deleniti aut
-                                omnis.Doloribus ut maiores omnis facere.</p>
+                            <i class="bi bi-gem text-info" id="icon2"></i>
+                            <h5 class="card-title">Ullamco Laboris ladore
+                                pan</h5>
+                            <p class="card-text" id="two">Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit.
+                                Aspernatur nemo inventore, unde amet
+                                perspiciatis dolores repudiandae doloribus
+                                fugiat
+                                molestiae, veniam voluptatem totam deserunt
+                                doloremque accusantium.
+                            </p>
+
                         </div>
                     </div>
                 </div>
-           
+                <div
+                    class="col-12  col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-sm-5 mt-5 ">
+                    <div class="card m-sm-auto m-auto"
+                        style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="bi bi-folder2-open text-info"
+                                id="icon3"></i>
+                            <h5 class="card-title">Labore consequatur
+                                incidid dolore</h5>
+                            <p class="card-text" id="three">Lorem, ipsum
+                                dolor sit amet consectetur adipisicing elit.
+                                Doloribus ipsa fugit magni impedit. At ex
+                                rerum inventore magni optio itaque incidunt,
+                                quam labore consequatur ipsam? Dolores
+                                mollitia eligendi numquam cupiditate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 
